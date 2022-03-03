@@ -47,9 +47,9 @@ header div{
   background-color: #0086FF;
 }
 
-.corp div, section, aside{
+section, aside, .main-header{
   background-color: #ABCFE6;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 /* Main's header */
