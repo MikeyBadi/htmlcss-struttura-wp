@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container{
+  margin: auto;
+  width: 85%;
+  background-color: aqua;
+}
+
+/* 
+  HEADER
+*/
+header div{
+  margin-bottom: 30px;
+}
+
+/* Main Navigation Menu */
+.logo-menu{
+  height: 130px;
+  background-color: #E579E6;
+
+}
+
+/* Jumbotron */
+.jumbo{
+  height: 500px;
+  background-color: #E1D77A;
+}
+
+/* 
+  MAIN
+*/
+
+/* body of the main */
+.corp{
+  height: 670px;
+  background-color: #0086FF;
+}
+
+.corp div, section, aside{
+  background-color: #ABCFE6;
+  margin-bottom: 25px;
+}
+
+.main-header{
+  height: 90px;
+}
